@@ -1,28 +1,278 @@
 body{
     font-family: 'Montserrat';
+    font-style: normal;
+}
 
+button{
+    cursor: pointer;
+    font-family: inherit;
+}
 
+a{
+    color: inherit;
+    font-style: normal;
+}
+
+.list{
+    list-style: none;
+    text-decoration: none;
 }
 
 /** Header section */
+.header-logo{   
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: #111111;
+}
+
+.header-logo-italic{
+    font-style: italic;
+}
+
+
+.header-item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: -0.02em;
+    color: #111111;
+
+}
 
 
 
 
 
 
-
-
-
-
+/** hero section */
 
 
 .hero-title{
-    font-style: normal;
     font-weight: 500;
     font-size: 28px;
-    line-height: 34px;
+    line-height: 1.21;
     letter-spacing: -0.03em;
     color: #FFFFFF;
-    
+    background-color: cornflowerblue;    
+}
+
+.btn-hero{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    background: #FD9222;
+}
+
+/** benefits section */
+
+.section-benefits{
+    background-color:  #1E1823;
+}
+
+.benefits-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.benefits-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/** components section */
+
+.components-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+.components-title-taste{
+    color: #FD9222;
+}
+
+.components-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #111111;
+}
+
+.choco {
+    background-color: #FD9222;
+    border-radius: 15px;
+}
+
+.milk{
+    background-color: white;
+    border: 1px solid #FD9222;
+    border-radius: 15px;
+}
+
+.nuts{
+    background: #1E1823;
+    border-radius: 15px;
+}
+.semi{
+    background-color: white;
+    border: 1px solid #FD9222;
+    border-radius: 15px;
+}
+
+.components-description-w{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color :white;
+}
+
+.components-description-b{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+/** How it's made section */
+
+.made-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+.title-orange{
+    color: #FD9222;
+}
+
+.made-subtitle{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #111111;
+}
+
+.made-item{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #111111;
+}
+
+/** reviews section */
+
+.section-reviews-title{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    color: #111111;
+}
+
+.choco-orange{
+    color: #FD9222;
+}
+
+.reviews-title{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: #111111;
+}
+
+.reviews-text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: rgba(17, 17, 17, 0.7);
+}
+
+.reviews-item{
+    background: #FFFFFF;
+    border: 1px solid rgba(17, 17, 17, 0.1);
+    box-shadow: 0px 9.04932px 100px rgba(17, 17, 17, 0.03);
+    border-radius: 15px;
+}
+
+.btn-reviews{
+    border: 1px solid #FD9222;
+    border-radius: 100px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #111111;
+}
+
+/** footer section */
+
+.footer{
+    background: #1E1823;
+}
+
+.footer-title{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+.footer-choco{
+    color: #FD9222;
+}
+
+
+.address-text{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.address-list{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+}
+
+
+.footer-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    align-items: center;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
 }
