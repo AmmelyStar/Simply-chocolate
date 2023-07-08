@@ -279,6 +279,15 @@ padding-bottom: 50px;
     color: rgba(255, 255, 255, 0.7);
 }
 
+.benefits-icon{
+    width: 62px;
+    height: 62px;
+    border-radius: 365px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    color: #FAFAFA;
+    margin-bottom: 22px;
+}
+
 /** components section */
 
 .section-components{
