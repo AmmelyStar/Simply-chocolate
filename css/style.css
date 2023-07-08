@@ -257,6 +257,17 @@ padding-bottom: 50px;
     
 }
 
+.benefits-item:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: calc(50% - 62px);
+    right: -18px;
+    display: block;
+    width: 1px;
+    height: 124px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
 .benefits-img{
     margin-bottom: 22px;
 }
