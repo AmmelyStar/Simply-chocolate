@@ -1,5 +1,5 @@
 :root {
-    --primary-font: 'Montserrat';
+    --primary-font: 'Montserrat', sans-serif;
     --black-cl: #111111;
     --white-cl: #FAFAFA;
     --violet-cl: #1E1823;
@@ -8,8 +8,12 @@
 }
 
 body{
-    font-family: --var(--primary-font);
-    font-style: normal;
+    font-family: var(--primary-font);
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: var(--black-cl);
+     background-color: var(--white-cl);
 }
 
 button{
@@ -50,14 +54,18 @@ a{
 }
 
 .section{
+padding-top: 50px;
+padding-bottom: 50px;
     
     
 }
 
 .container{
     width: 1168px;
-    margin: 0 auto;
-    padding: 0 16px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
 
 }
 
@@ -103,9 +111,10 @@ a{
 .header-item{
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1.29;
     letter-spacing: -0.02em;
     color:var(--black-cl);
+    background-color: var(--white-cl);
 
 }
 
@@ -127,15 +136,14 @@ a{
 
 /** hero section */
 
-.section-hero{
-    max-width: 1440px;
-    margin-bottom: 72px;
+.hero{
+    padding-bottom: 72px;
+    
     
 
 }
 
 .hero-container{
-    margin: 0 auto;
     padding-top: 381px;
     padding-bottom: 40px;
     padding-left: 56px;
@@ -147,19 +155,17 @@ a{
     background-position: center;
     background-size: cover;
     
+   
+    
     
 }
 
 .hero-title{
-    font-family: Montserrat;
-    font-style: normal;
-    display: flex;
-    text-align: left;
     margin-bottom: 32px;
     width: 484px;
     font-weight: 500;
     font-size: 28px;
-    line-height: 1.22;
+    line-height: 1.21;
     letter-spacing: -0.03em;
     color: var(--white-cl);
     
@@ -186,8 +192,8 @@ a{
     color: var(--white-cl);
     background-color: var(--accent-cl);
     border: 1px solid transparent;
-        border-radius: 100px;
-        transition: color 400ms ease-in, 
+    border-radius: 100px;
+    transition: color 400ms ease-in, 
         background-color 400ms ease-in, 
         border-color 400ms ease-in;
 }
@@ -204,6 +210,9 @@ a{
     line-height: 1.21;
     color: var(--white-cl);
     background-color: transparent;
+    transition: color 400ms ease-in, 
+        background-color 400ms ease-in, 
+        border-color 400ms ease-in;
 
 }
 
@@ -231,11 +240,8 @@ a{
 
 /** benefits section */
 
-.section-benefits{
-    padding: 50px;
-    
-
-     
+.benefits{
+    background-color: var(--violet-cl);   
 }
 
 .benefits-list{
@@ -246,6 +252,7 @@ a{
 }
 
 .benefits-item{
+    position: relative;
     width: 308px;
     
 }
@@ -254,9 +261,7 @@ a{
     margin-bottom: 22px;
 }
 
-.section-benefits{
-    background-color: var(--violet-cl);
-}
+
 
 .benefits-title{
     font-weight: 600;
