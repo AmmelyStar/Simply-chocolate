@@ -135,6 +135,7 @@ a{
 }
 
 .hero-container{
+    margin: 0 auto;
     padding-top: 381px;
     padding-bottom: 40px;
     padding-left: 56px;
