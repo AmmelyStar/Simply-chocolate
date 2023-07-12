@@ -59,15 +59,37 @@ padding-bottom: 50px;
     
     
 }
-
+/** base styles or small devices */
 .container{
-    width: 1168px;
+    min-width: 320px;
+    max-width: 375px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    /**width: 1168px;
+    
     padding-left: 16px;
-    padding-right: 16px;
+    padding-right: 16px;*/
 
 }
+/** Tablet screen */
+@media screen and (min-width: 768px) {
+    .container {    
+     max-width: 768px;
+     margin-left: 32px;
+     margin-right: 32px;
+    }  
+}
+/** Desktop screen */
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1168px;
+        margin-left: 32px;
+        margin-right: 32px;
+    }
+}
+
 
 /** Header section */
 .header{
