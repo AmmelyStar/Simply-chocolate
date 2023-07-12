@@ -35,3 +35,13 @@
     </symbol>
   </defs>
 </svg>
+
+
+<!--Media -->
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="menu-mobil" viewBox="0 0 32 32">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.286" d="M4 16h24M4 8h24M4 24h24"/>
+    </symbol>
+  </defs>
+</svg>

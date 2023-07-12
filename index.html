@@ -20,7 +20,7 @@
 </head>
 <body class="page">
     <!--Header section -->
-    <header class="header">
+     <header class="header">
         <div class="header-container container">
            
             <nav class="header-nav">
@@ -56,14 +56,20 @@
                     </a>
                 </li>
             </ul>
+
+            <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg class="menu-toggle-icon" width="28" height="28">
+                    <use href="./img/sprite.svg#menu-mobil"></use>
+                </svg>
+            </button>
         </div>
         
-    </header>
+    </header> 
 
   <!--Main blocks-->
     <main class="main">
         <!--Hero section -->
-        <section class="hero">
+        <!-- <section class="hero">
             <div class="hero-container container">
                 <h1 class="hero-title">
                     Treat yourself or a loved one to <br>
@@ -82,7 +88,7 @@
                     </button>
                 </div>                
             </div>           
-        </section>
+        </section> -->
 
         <!--Benefits section -->
         <section class="benefits section">
@@ -140,7 +146,7 @@
         </section>
 
         <!--Components section -->
-        <section class="components section">
+        <!-- <section class="components section">
             <div class="container">
                 <h2 class="components-title">IT ALL ADDS UP TO ONE EXCEPTIONAL <span class="components-title-taste">TASTE</span>
                     SENSATION</h2>
@@ -262,10 +268,10 @@
                 </ul>
             </div>
             
-        </section>
+        </section> -->
 
         <!--How it's made section -->
-        <section class="section-made section" id="how">
+        <!-- <section class="section-made section" id="how">
             <div class="container">
                 <h2 class="made-title">hOW IT’S <span class="title-orange">made?</span> </h2>
                 
@@ -304,10 +310,10 @@
                 
             </div>
             
-        </section>
+        </section> -->
 
         <!--Reviews section -->
-        <section class="section-reviews section" id="reviews">
+        <!-- <section class="section-reviews section" id="reviews">
             <div class="container">
                 <h2 class="section-reviews-title"> <span class="choco-orange">chocolate</span> is loved</h2>
                 
@@ -360,11 +366,11 @@
                 
                 <button class="btn-reviews" type="button">Leave a review</button>
             </div>            
-        </section>       
+        </section>        -->
     </main>
 
     <!--Footer section -->
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container">
             <h2 class="footer-title">
                 <span class="footer-choco">Chocolate</span> a delicious cure for a bad day
@@ -396,9 +402,33 @@
             </ul>
         </div>
         
-    </footer>
+    </footer> -->
 
+    <!--Mobile menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">
+            <svg fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                <path fill-rule="evenodd"
+                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                    clip-rule="evenodd"></path>
+            </svg>
+        </button>
     
+        <ul class="mobile-menu">
+            <li><a href="" class="link">About</a></li>
+            <li><a href="" class="link">Products</a></li>
+            <li><a href="" class="link">Contacts</a></li>
+            <li><a href="" class="link">Career</a></li>
+        </ul>
+    </div>
+
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous">
+    </script>
+
+    <script defer src="js/mobile-menu.js"></script>
+
     
 </body>
 </html>
