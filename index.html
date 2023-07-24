@@ -27,6 +27,7 @@
                 <a class="header-logo list" href="index.html"> <span class="header-logo-italic">SIMPLY</span> CHOCOLATE
                     <img class="header-img" src="./img/header/logo.svg" alt="Simply chocolate" width="24" height="24">
                 </a>
+
                 <ul class="header-list list">
                     <li class="header-item">
                         <a class="header-link list" href="index.html">Home</a>
@@ -39,6 +40,8 @@
                     </li>
                 </ul>            
             </nav>
+
+
             <ul class="header-networks list">
                 <li class="header-networks-item">
                     <a class="header-networks-link" href="https://instagram.com" target="_blank" rel="noopener noroferrer">
@@ -404,6 +407,68 @@
         
     </footer> -->
 
+    <!-- Modal window -->
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal-btn" type="button" data-modal-close>
+                <svg class="modal-icon" width="28" height="28">
+                    <use href="./images/icons.svg#x-close"></use>
+                </svg>
+            </button>
+    
+            <strong class="modal-caption">
+                LEAVE A REVIEW ABOUT <span class="title-accent">OUR CHOCOLATE</span>
+            </strong>
+    
+            <form class="modal-form" name="review_form" autocomplete="off">
+                <label class="modal-form-field">
+                    <span class="modal-form-label">Name</span>
+                    <input class="modal-form-input" type="text" name="user_name" placeholder="Antony Black" />
+                    <svg class="modal-form-icon" width="24" height="24">
+                        <use href="./images/icons.svg#user"></use>
+                    </svg>
+                </label>
+    
+                <label class="modal-form-field">
+                    <span class="modal-form-label">Email</span>
+                    <input class="modal-form-input" type="email" name="user_email" placeholder="example@mail.com" />
+                    <svg class="modal-form-icon" width="24" height="24">
+                        <use href="./images/icons.svg#mail"></use>
+                    </svg>
+                </label>
+    
+                <label class="modal-form-field">
+                    <span class="modal-form-label">Phone number</span>
+                    <input class="modal-form-input" type="tel" name="user_phone" placeholder="+38 (099) 123-45-67"
+                        value="" />
+                    <svg class="modal-form-icon" width="24" height="24">
+                        <use href="./images/icons.svg#phone"></use>
+                    </svg>
+                </label>
+    
+                <label class="modal-form-field">
+                    <span class="modal-form-label">Comment</span>
+                    <textarea class="modal-form-comment" name="user_comment" rows="4" placeholder="Enter text"></textarea>
+                </label>
+    
+                <label class="modal-form-agreement">
+                    <input class="modal-form-checkbox visually-hidden" type="checkbox" />
+                    <span class="modal-form-custom-checkbox">
+                        <svg class="modal-form-checkbox-icon" width="10" height="10">
+                            <use href="./images/icons.svg#icon-checked"></use>
+                        </svg>
+                    </span>
+                    <span class="modal-form-agreement-desc">
+                        I accept the terms and conditions of the
+                        <a class="modal-form-link" href="#">Privacy Policy</a>
+                    </span>
+                </label>
+    
+                <button class="btn accent-btn" type="submit">Send</button>
+            </form>
+        </div>
+    </div>
+
     <!--Mobile menu -->
     <div class="menu-container js-menu-container" id="mobile-menu">
         <button class="menu-toggle js-close-menu">
@@ -454,6 +519,8 @@
     </script>
 
     <script defer src="js/mobile-menu.js"></script>
+
+    <script src="./js/modal.js"></script>
 
     
 </body>
